@@ -1,0 +1,24 @@
+\documentclass{ctexart}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=blue,
+}
+
+\setCJKmainfont{msyh.ttf}
+\setCJKsansfont{msyh.ttf}
+\setCJKmonofont{msyh.ttf}
+
+\usepackage{geometry}
+\geometry{
+paperheight=4.8in,paperwidth=3.6in,margin=0.2in,heightrounded
+}
+
+\usepackage{xcolor}
+\begin{document}
+
+\setcounter{tocdepth}{2}
+\hypertarget{menu}
+\tableofcontents
